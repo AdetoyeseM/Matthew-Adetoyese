@@ -291,7 +291,7 @@ export default function Home() {
             className="relative w-72 h-72 rounded-full overflow-hidden border-2 border-white/20 shadow-xl mb-6"
           >
             <Image
-              src="/profile.jpg"
+              src="/portfolio_academia/profile.jpg"
               alt="Matthew Adetoyese"
               width={288}
               height={288}
@@ -352,7 +352,7 @@ export default function Home() {
               <motion.div variants={itemVariants} className="md:hidden flex flex-col items-center mb-8">
                 <div className="relative w-40 h-40 rounded-full overflow-hidden border-4 border-accent/30 shadow-lg ring-4 ring-primary/20 mb-4">
                   <Image
-                    src="/profile.jpg"
+                    src="/portfolio_academia/profile.jpg"
                     alt="Matthew Adetoyese"
                     width={160}
                     height={160}
