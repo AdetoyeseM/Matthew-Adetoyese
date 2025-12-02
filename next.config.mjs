@@ -1,6 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  // <CHANGE> Optimized config for static portfolio site
+  // Optimized config for static portfolio site on GitHub Pages
   typescript: {
     ignoreBuildErrors: true,
   },
@@ -8,7 +8,10 @@ const nextConfig = {
     unoptimized: true,
   },
   // Enable static export for GitHub Pages
-  output: 'export',
+  output: "export",
+  // IMPORTANT: basePath must match the repository name for GitHub Pages project sites
+  basePath: "/portfolio_academia",
+  assetPrefix: "/portfolio_academia/",
   trailingSlash: true,
 }
 
