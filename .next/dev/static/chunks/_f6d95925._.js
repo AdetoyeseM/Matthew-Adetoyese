@@ -614,13 +614,15 @@ function Home() {
         {
             name: "TrustFund Mobile",
             description: "Secure pension fund management platform enabling users to track and manage retirement accounts seamlessly",
-            role: "Lead Mobile Developer",
+            role: "Mobile Engineer",
             platforms: [
                 "iOS",
                 "Android"
             ],
             stack: [
                 "Flutter",
+                "Kotlin",
+                "Swift",
                 "Firebase",
                 "REST APIs",
                 "Docker",
@@ -631,50 +633,8 @@ function Home() {
                 "70% customer satisfaction increase",
                 "Regulatory compliant"
             ],
-            androidLink: "#",
-            iosLink: "#"
-        },
-        {
-            name: "InvestNaija",
-            description: "All-in-one investment platform for planning, saving, and investing in mutual funds, bonds, and REITs",
-            role: "Mobile Engineer",
-            platforms: [
-                "iOS",
-                "Android"
-            ],
-            stack: [
-                "Flutter",
-                "GraphQL",
-                "Real-time Data",
-                "Firebase"
-            ],
-            achievements: [
-                "Democratized investment access",
-                "Real-time portfolio tracking"
-            ],
-            androidLink: "#",
-            iosLink: "#"
-        },
-        {
-            name: "PrimaryOffer",
-            description: "NGX-backed platform for purchasing public offers and rights issues on Nigerian exchanges",
-            role: "Mobile Developer",
-            platforms: [
-                "iOS",
-                "Android"
-            ],
-            stack: [
-                "Kotlin",
-                "Swift",
-                "Payment Integration",
-                "REST APIs"
-            ],
-            achievements: [
-                "75% surge in user engagement",
-                "NGX integration"
-            ],
-            androidLink: "#",
-            iosLink: "#"
+            androidLink: "https://play.google.com/store/apps/details?id=com.trustfund.TrustFundMobile&hl=en",
+            iosLink: "https://apps.apple.com/ng/app/trustfund-mobile/id1093997889"
         },
         {
             name: "Duffle",
@@ -694,17 +654,62 @@ function Home() {
                 "70% increase in user engagement",
                 "Secure crypto transactions"
             ],
-            androidLink: "#",
-            iosLink: "#"
+            androidLink: "http://play.google.com/store/apps/details?id=io.ivorychain.duffle&pli=1",
+            iosLink: "https://apps.apple.com/us/app/duffle/id6739775801"
+        },
+        {
+            name: "InvestNaija",
+            description: "All-in-one investment platform for planning, saving, and investing in mutual funds, bonds, and REITs",
+            role: "Software Engineer",
+            platforms: [
+                "iOS",
+                "Android"
+            ],
+            stack: [
+                "Flutter",
+                "Kotlin",
+                "Swift",
+                "Rest APIs",
+                "Real-time Data",
+                "Firebase"
+            ],
+            achievements: [
+                "Democratized investment access",
+                "Real-time portfolio tracking"
+            ],
+            androidLink: "https://play.google.com/store/apps/details?id=com.chapelhilldenham.invest_naija",
+            iosLink: "https://apps.apple.com/us/app/investnaija/id1579193940"
+        },
+        {
+            name: "PrimaryOffer",
+            description: "NGX-backed platform for purchasing public offers and rights issues on Nigerian exchanges",
+            role: "Mobile Developer",
+            platforms: [
+                "iOS",
+                "Android"
+            ],
+            stack: [
+                "Kotlin",
+                "Swift",
+                "Payment Integration",
+                "REST APIs"
+            ],
+            achievements: [
+                "75% surge in user engagement",
+                "NGX integration"
+            ],
+            androidLink: null,
+            iosLink: "https://apps.apple.com/ng/app/primaryoffer/id1584954524"
         },
         {
             name: "LiteTrade",
-            description: "Lightweight trading app optimized for low-bandwidth environments with real-time market data",
+            description: "Developed a trading app for buying and selling gift cards, airtime, and more",
             role: "Mobile Developer",
             platforms: [
                 "Android"
             ],
             stack: [
+                "Flutter",
                 "Java",
                 "WebSockets",
                 "Local Caching",
@@ -714,7 +719,7 @@ function Home() {
                 "Fast trading on limited bandwidth",
                 "Real-time market data"
             ],
-            androidLink: "#",
+            androidLink: "https://play.google.com/store/apps/details?id=com.mobirevo.tradelite",
             iosLink: null
         }
     ];
@@ -765,6 +770,8 @@ function Home() {
             "SQL"
         ],
         frameworks: [
+            "GIN",
+            "NextJS",
             "Flutter",
             "React Native",
             "Android SDK",
@@ -841,7 +848,7 @@ function Home() {
                             variants: itemVariants,
                             className: "relative w-72 h-72 rounded-full overflow-hidden border-2 border-white/20 shadow-xl mb-6",
                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$3_$40$babel$2b$core$40$7$2e$28$2e$5_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$3_$40$babel$2b$core$40$7$2e$28$2e$5_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                                src: "/profile.jpg",
+                                src: "/portfolio_academia/profile.jpg",
                                 alt: "Matthew Adetoyese",
                                 width: 288,
                                 height: 288,
@@ -950,7 +957,7 @@ function Home() {
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$3_$40$babel$2b$core$40$7$2e$28$2e$5_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                     className: "relative w-40 h-40 rounded-full overflow-hidden border-4 border-accent/30 shadow-lg ring-4 ring-primary/20 mb-4",
                                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$3_$40$babel$2b$core$40$7$2e$28$2e$5_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$3_$40$babel$2b$core$40$7$2e$28$2e$5_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                                                        src: "/profile.jpg",
+                                                        src: "/portfolio_academia/profile.jpg",
                                                         alt: "Matthew Adetoyese",
                                                         width: 160,
                                                         height: 160,
@@ -1712,12 +1719,12 @@ function Home() {
                                                     {
                                                         title: "Implementing Security Screen Overlay in Flutter Apps",
                                                         platform: "Dev.to",
-                                                        url: "#"
+                                                        url: "https://dev.to/adepto/implementing-a-security-screen-overlay-in-flutter-24g2"
                                                     },
                                                     {
                                                         title: "Custom Error Handling: Avoiding the Grey Error Screen in Production Apps",
                                                         platform: "Medium",
-                                                        url: "#"
+                                                        url: "https://medium.com/@adetoyesematthew/avoiding-the-dreaded-grey-error-screen-in-flutter-custom-error-handling-7c6035cb3715"
                                                     }
                                                 ].map((article, idx)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$3_$40$babel$2b$core$40$7$2e$28$2e$5_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$3_$40$babel$2b$core$40$7$2e$28$2e$5_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                                                         href: article.url,
@@ -1761,7 +1768,7 @@ function Home() {
                                                     }, idx, true, {
                                                         fileName: "[project]/app/page.tsx",
                                                         lineNumber: 600,
-                                                        columnNumber: 15
+                                                        columnNumber: 19
                                                     }, this))
                                             }, void 0, false, {
                                                 fileName: "[project]/app/page.tsx",

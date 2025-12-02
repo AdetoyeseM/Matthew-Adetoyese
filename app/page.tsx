@@ -171,22 +171,31 @@ export default function Home() {
     {
       name: "TrustFund Mobile",
       description: "Secure pension fund management platform enabling users to track and manage retirement accounts seamlessly",
-      role: "Lead Mobile Developer",
+      role: "Mobile Engineer",
       platforms: ["iOS", "Android"],
-      stack: ["Flutter", "Firebase", "REST APIs", "Docker", "Codemagic"],
+      stack: ["Flutter", "Kotlin", "Swift", "Firebase", "REST APIs", "Docker", "Codemagic"],
       achievements: ["Manages $10M+ in assets", "70% customer satisfaction increase", "Regulatory compliant"],
-      androidLink: "#",
-      iosLink: "#",
+      androidLink: "https://play.google.com/store/apps/details?id=com.trustfund.TrustFundMobile&hl=en",
+      iosLink: "https://apps.apple.com/ng/app/trustfund-mobile/id1093997889",
+    },{
+      name: "Duffle",
+      description: "Crypto payment platform making digital currencies as practical as cash for everyday transactions",
+      role: "Mobile Developer",
+      platforms: ["iOS", "Android"],
+      stack: ["Dart", "Blockchain APIs", "Payment Gateways", "Web3"],
+      achievements: ["70% increase in user engagement", "Secure crypto transactions"],
+      androidLink: "http://play.google.com/store/apps/details?id=io.ivorychain.duffle&pli=1",
+      iosLink: "https://apps.apple.com/us/app/duffle/id6739775801",
     },
     {
       name: "InvestNaija",
       description: "All-in-one investment platform for planning, saving, and investing in mutual funds, bonds, and REITs",
-      role: "Mobile Engineer",
+      role: "Software Engineer",
       platforms: ["iOS", "Android"],
-      stack: ["Flutter", "GraphQL", "Real-time Data", "Firebase"],
+      stack: ["Flutter", "Kotlin", "Swift", "Rest APIs", "Real-time Data", "Firebase"],
       achievements: ["Democratized investment access", "Real-time portfolio tracking"],
-      androidLink: "#",
-      iosLink: "#",
+      androidLink: "https://play.google.com/store/apps/details?id=com.chapelhilldenham.invest_naija",
+      iosLink: "https://apps.apple.com/us/app/investnaija/id1579193940",
     },
     {
       name: "PrimaryOffer",
@@ -195,27 +204,18 @@ export default function Home() {
       platforms: ["iOS", "Android"],
       stack: ["Kotlin", "Swift", "Payment Integration", "REST APIs"],
       achievements: ["75% surge in user engagement", "NGX integration"],
-      androidLink: "#",
-      iosLink: "#",
+      androidLink: null,
+      iosLink: "https://apps.apple.com/ng/app/primaryoffer/id1584954524",
     },
-    {
-      name: "Duffle",
-      description: "Crypto payment platform making digital currencies as practical as cash for everyday transactions",
-      role: "Mobile Developer",
-      platforms: ["iOS", "Android"],
-      stack: ["Dart", "Blockchain APIs", "Payment Gateways", "Web3"],
-      achievements: ["70% increase in user engagement", "Secure crypto transactions"],
-      androidLink: "#",
-      iosLink: "#",
-    },
+    
     {
       name: "LiteTrade",
-      description: "Lightweight trading app optimized for low-bandwidth environments with real-time market data",
+      description: "Developed a trading app for buying and selling gift cards, airtime, and more",
       role: "Mobile Developer",
       platforms: ["Android"],
-      stack: ["Java", "WebSockets", "Local Caching", "REST APIs"],
+      stack: ["Flutter" , "Java", "WebSockets", "Local Caching", "REST APIs"],
       achievements: ["Fast trading on limited bandwidth", "Real-time market data"],
-      androidLink: "#",
+      androidLink: "https://play.google.com/store/apps/details?id=com.mobirevo.tradelite",
       iosLink: null,
     },
   ]
@@ -258,7 +258,7 @@ export default function Home() {
 
   const skills = {
     languages: ["GOLang", "Dart", "Java", "Kotlin", "Swift", "Python", "JavaScript", "TypeScript", "SQL"],
-    frameworks: ["Flutter", "React Native", "Android SDK", "iOS SDK"],
+    frameworks: ["GIN","NextJS", "Flutter", "React Native", "Android SDK", "iOS SDK"],
     tools: ["Git", "Docker", "Firebase", "Codemagic", "CI/CD", "GraphQL", "REST APIs"],
     concepts: ["MVC/MVVM/MVP", "Clean Architecture", "Agile/Scrum", "DevOps", "Security", "Performance Optimization"],
   }
@@ -589,16 +589,16 @@ export default function Home() {
                   {
                     title: "Implementing Security Screen Overlay in Flutter Apps",
                     platform: "Dev.to",
-                    url: "#",
+                    url: "https://dev.to/adepto/implementing-a-security-screen-overlay-in-flutter-24g2",
                   },
                   {
                     title: "Custom Error Handling: Avoiding the Grey Error Screen in Production Apps",
                     platform: "Medium",
-                    url: "#",
+                    url: "https://medium.com/@adetoyesematthew/avoiding-the-dreaded-grey-error-screen-in-flutter-custom-error-handling-7c6035cb3715",
                   },
                 ].map((article, idx) => (
-              <Link
-                key={idx}
+                  <Link
+                    key={idx}
                     href={article.url}
                     target="_blank"
                     rel="noopener noreferrer"
