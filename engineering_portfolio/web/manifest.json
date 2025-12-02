@@ -1,0 +1,23 @@
+{
+    "name": "AdepTech",
+    "short_name": "AdepTech",
+    "start_url": ".",
+    "display": "standalone",
+    "background_color": "#0175C2",
+    "theme_color": "#0175C2",
+    "description": "Adepto's Page",
+    "orientation": "portrait-primary",
+    "prefer_related_applications": false,
+    "icons": [
+        {
+            "src": "icons/img.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "icons/img.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
+}
